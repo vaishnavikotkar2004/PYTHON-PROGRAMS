@@ -1,0 +1,11 @@
+a=int(input("enter first number"))
+b=int(input("enter second number"))
+c=int(input("enter third number"))
+if a>b and a>c:
+   print("first number greater",a)
+elif b>c and b>a:
+     print("second number greater",b)
+elif c>a and c>b:
+     print("third number greater",c)
+else:
+     print("numbers are same")

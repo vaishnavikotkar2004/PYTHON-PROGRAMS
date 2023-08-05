@@ -1,0 +1,11 @@
+n=input("enter limit")
+n=int(n)
+a=[]
+for i in range(0,n):
+     s1=input("enter names")
+     a.append(s1)
+x=input("enter name to search")
+if x in a:
+   print("found")
+else:
+     print("not found")

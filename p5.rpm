@@ -1,0 +1,24 @@
+1. s=input("enter string")
+   for i in range(0,len(s)+1):
+         print(s[:i])
+         
+output:= 
+v
+va
+vai
+vais
+vaish
+vaishu
+
+    
+         
+2. s=input("enter string")
+   for i in range(0,len(s)-1):
+         print(s[0:])         
+         
+output:=
+vaishu
+vaishu
+vaishu
+vaishu
+vaishu         

@@ -1,0 +1,82 @@
+Q.1
+a]
+print("hello,world")
+
+b]
+print(2+3)
+
+c]
+from math import*
+4.0/10.0+3.5*2
+
+d]
+from math import*
+sqrt((3.5-5.0)+7*3)
+
+e]
+a=5
+print(type(a))
+
+f]
+pi=3.14
+print(type(pi))
+
+g]
+name='python'
+print(type(name))
+
+h]
+q=True
+print(type(q))
+
+i]
+2+5
+
+j]
+(2/5)+4/5-(7*5)/5
+
+k]
+17%5
+
+Q.2
+a]
+import random
+print(random.randint(1,10))
+
+b]
+import random
+print(random.randint(1,100))
+
+c]
+def f(r):
+    c=2*pi*r
+    print(c)
+
+d]
+from math import*
+ue=230
+Amplitude=ue*sqrt(2)
+print(Amplitude)
+
+e]
+def f(n):
+    print('square=',n*n)
+    
+f]
+def f(x):
+    a=sin(x)
+    b=cos(x)
+    c=tan(x)
+    print('sin(x)=',a)
+    print('cos(x)=',b)
+    print('tan(x)=',c)    
+    
+ g]
+ def f(x,y,z):
+    a=x+y+z
+    b=x*y*z
+    print("sum=",a)
+    print("product=",b)   
+    
+    
+    

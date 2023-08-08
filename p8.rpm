@@ -1,0 +1,23 @@
+n=input("enter limit")
+n=int(n)
+a=[]
+for i in range(n):
+     num=int(input("enter 1 by 1"))
+     a.append(num)
+     print("numbers=",a)
+     a.sort()
+print("ascending=",a)
+
+
+
+
+
+n=input("enter limit")
+n=int(n)
+a=[]
+for i in range(n):
+     num=int(input("enter 1 by 1"))
+     a.append(num)
+     print("numbers=",a)
+     a.reverse()
+print("ascending=",a)

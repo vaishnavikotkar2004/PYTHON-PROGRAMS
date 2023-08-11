@@ -1,0 +1,78 @@
+Q.1
+def f(a,b):
+    q=a//b
+    r=a%b
+    print("quotient=",q)
+    print("remainder=",r)
+Q.2
+from math import*
+def circle(r):
+    a=pi*r**2
+    c=2*pi*r
+    print("area of circle=",a)
+    print("area of circumference=",c)
+Q.3
+from cmath import*
+def f(a,b,c):
+    r=-b/(2*a)
+    i=sqrt(b*b-4*a*c)/(2*a)
+    print("roots=",r+i,',',r-i)
+Q.4
+A]
+x=True
+y=True
+z=x and y
+print(z)
+
+B]
+x=True
+y=False
+z=x and y
+print(z)
+
+C]
+x=False
+y=True
+z=x and y
+print(z)
+
+D]
+x=False
+y=False
+z=x and y
+print(z)
+
+E]
+x=False
+y=False
+z=x and y
+print(z)
+
+Q.5
+x=False
+y=False
+z=(x or y)and(not x or not y)
+print(z)
+
+Q.6
+A]
+x=True
+y=True
+z=False
+p=(x or y)and z
+print(p)
+
+B]
+x=True
+y=True
+z=False
+p=(x and not y)or(x and z)
+print(p)
+
+C]
+x=True
+y=True
+z=False
+p=(x and y)or not z
+print(p)
+            
